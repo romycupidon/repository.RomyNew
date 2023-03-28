@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.RomyNew" name="Romy-Repo" version="1.0.0" provider-name="RomyCupidon">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Romy-Repo">
+            <info compressed="false">https://raw.githubusercontent.com/romycupidon/repository.RomyNew/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/romycupidon/repository.RomyNew/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/romycupidon/repository.RomyNew/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Am zis sa fie!:)</summary>
+            <description>ALL FREE!</description>
+            <platform>all</platform>
+    </extension>
+</addon>
