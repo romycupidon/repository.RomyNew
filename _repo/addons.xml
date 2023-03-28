@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon
+	id="plugin.video.RomyM3U" version="1.96" name="[COLORaqua]RomyM3U[/COLOR]" provider-name="romy">
+<requires>
+    	<import addon="script.module.resolveurl"/>
+	    <import addon="script.module.requests"/>
+		<import addon="script.module.six"/>
+
+		<import addon="script.module.web-pdb" />
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<summary lang="es">...doar un script...</summary>
+		<description lang="es"></description>
+		<website>https://github.com/</website>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+		<disclaimer lang="es">The author of this addon makes not responsible for the use of it</disclaimer>
+	<assets>
+        <icon>icon.jpg</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+		<language>en</language>
+	</extension>
+
+</addon>
+
+<addon id="plugin.video.romyTVnexus" name="[B][COLOR aqua]romyTV[/COLOR] [COLOR red]nexus[/COLOR][/B]" version="3.0.0+matrix" provider-name="RomyTVplace">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+	<import addon="script.module.resolveurl" version="5.0.00"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">TOT CONȚINUTUL ACESTUI ADDON A FOST EXTRAS DIN DOMENIUL GOOGLE. NU SUNT RESPONSABIL PENTRU SCOPURILE PROFITABILE ALE PĂRȚILOR TERȚE.</summary>
+    <description lang="en">UN PLUGIN NEXUS!</description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
+
+    <addon id="repository.RomyNew" name="Romy-Repo" version="1.0.0" provider-name="RomyCupidon">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Romy-Repo">
+            <info compressed="false">https://raw.githubusercontent.com/romycupidon/repository.RomyNew/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/romycupidon/repository.RomyNew/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/romycupidon/repository.RomyNew/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Am zis sa fie!:)</summary>
+            <description>ALL FREE!</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
